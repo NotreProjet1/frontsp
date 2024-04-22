@@ -1,0 +1,37 @@
+.usersidebar .s1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .usersidebar .s1 svg {
+    display: none; /* Supprimer l'icône */
+  }
+  
+  .usersidebar .s1:hover {
+ 
+    border-radius: 5px;
+    cursor: pointer;
+    color: grey;
+  }
+  
+  .select-option {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: none; /* Supprimer le fond blanc */
+    border: none; /* Supprimer la bordure */
+    padding: 0; /* Supprimer le rembourrage */
+    cursor: pointer;
+  }
+  
+  
+  .select-option:hover {
+    background-color: transparent; /* Suppression du fond blanc au survol */
+  }
+  .select-option:focus {
+    outline: none; /* Supprimer la bordure au focus */
+  }
+  
+  
